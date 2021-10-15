@@ -10,4 +10,6 @@
 - Cook Off Challenge
 - Lunch Time Challenge
 - Starter's Challenge
-- other's
+- Other's
+  - Snack Down 2021
+  - ADA Challenge
