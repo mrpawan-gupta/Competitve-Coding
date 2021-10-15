@@ -1,7 +1,4 @@
-/**
- * @author Mayur Ingle(https://github.com/thecoder8890)
- *Problem :- https://leetcode.com/problems/two-sum/
- */
+
 class Solution {
     public int[] twoSum(int[] nums, int target) {
          int[] ans = new int[2];
