@@ -27,9 +27,12 @@ int main(){
     string b;
     cin >> b;
 
+    reverse(b.begin(), b.end());
+
     int c = -1;
 
-    for (int i = n - 1; i >= 0; i--){
+    for (int i = 0; i < n; i++)
+    {
         if(b[i]=='1'){
             c = i;
             break;
