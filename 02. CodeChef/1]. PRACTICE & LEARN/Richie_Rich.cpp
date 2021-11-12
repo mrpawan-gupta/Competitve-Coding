@@ -27,6 +27,7 @@ int main(){
     while(t--){
         int a, b, c;
         cin >> a >> b >> c;
+        
         int ans = (b - a) / c;
 
         cout << ans << endl;
