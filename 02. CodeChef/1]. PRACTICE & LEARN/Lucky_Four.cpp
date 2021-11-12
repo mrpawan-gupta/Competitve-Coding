@@ -36,6 +36,7 @@ int main(){
             }
             n /= 10;
         }
+        
         cout << c << endl;
         
     }
