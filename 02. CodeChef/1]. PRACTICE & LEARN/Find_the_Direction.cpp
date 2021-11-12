@@ -45,6 +45,7 @@ int main(){
         {
             cout << "West" << endl;
         }
+        
     }
 
     return 0;
