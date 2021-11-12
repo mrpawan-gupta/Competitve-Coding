@@ -24,20 +24,27 @@ int main(){
     int t;
     cin >> t;
 
-    while(t--){
-        int n;
-        cin >> n;
+    while (t--) {
+        int s;
+        cin >> s;
+        int x = s % 4;
 
-        int c = 0;
-
-        while(n!=0){
-            if(n%10==4){
-                c++;
-            }
-            n /= 10;
+        if (x == 0)
+        {
+            cout << "North" << endl;
         }
-        cout << c << endl;
-        
+        else if (x == 1)
+        {
+            cout << "East" << endl;
+        }
+        else if (x == 2)
+        {
+            cout << "South" << endl;
+        }
+        else
+        {
+            cout << "West" << endl;
+        }
     }
 
     return 0;

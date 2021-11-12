@@ -25,19 +25,11 @@ int main(){
     cin >> t;
 
     while(t--){
-        int n;
-        cin >> n;
+        int a, b, c;
+        cin >> a >> b >> c;
+        int ans = (b - a) / c;
 
-        int c = 0;
-
-        while(n!=0){
-            if(n%10==4){
-                c++;
-            }
-            n /= 10;
-        }
-        cout << c << endl;
-        
+        cout << ans << endl;
     }
 
     return 0;

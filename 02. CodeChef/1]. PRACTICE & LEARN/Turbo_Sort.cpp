@@ -24,21 +24,16 @@ int main(){
     int t;
     cin >> t;
 
-    while(t--){
-        int n;
-        cin >> n;
+    int a[t];
 
-        int c = 0;
-
-        while(n!=0){
-            if(n%10==4){
-                c++;
-            }
-            n /= 10;
-        }
-        cout << c << endl;
-        
+    for(int i=0; i<t; i++){
+        cin >> a[i];
     }
 
+    sort(a, a + t);
+
+    for (int i = 0; i < t; i++){
+        cout << a[i] << "\n";
+    }
     return 0;
 }

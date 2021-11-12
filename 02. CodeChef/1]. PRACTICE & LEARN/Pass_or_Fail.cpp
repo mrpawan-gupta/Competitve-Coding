@@ -27,17 +27,17 @@ int main(){
     while(t--){
         int n;
         cin >> n;
+        int x, p;
+        cin >> x >> p;
 
-        int c = 0;
+        int ans = -1 * (n - x) + 3 * (x);
 
-        while(n!=0){
-            if(n%10==4){
-                c++;
-            }
-            n /= 10;
+        if(ans>=p){
+            cout << "PASS" << endl;
         }
-        cout << c << endl;
-        
+        else{
+            cout << "FAIL" << endl;
+        }
     }
 
     return 0;
