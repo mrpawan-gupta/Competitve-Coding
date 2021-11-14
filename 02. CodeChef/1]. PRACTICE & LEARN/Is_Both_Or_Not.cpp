@@ -16,30 +16,33 @@ const ll mod = 1e9 + 7, inf = 1e18;
 #define pb push_back
 #define pp pop_back
 #define mp make_pair
-#define fast ios::sync_with_stdio(0);cin.tie(0);cout.tie(0);
+#define fast                 \
+    ios::sync_with_stdio(0); \
+    cin.tie(0);              \
+    cout.tie(0);
 
-int main(){
+int main()
+{
     fast;
 
     int n;
     cin >> n;
 
-    int c = 0;
-
-    if(n%5==0){
-        c++;
-    }
-    if(n%11==0){
-        c++;
-    }
-    if(c==2){
+    if (n % 5 == 0 && n % 11 == 0)
+    {
         cout << "BOTH" << endl;
     }
-    else if(c==0){
-        cout << "NONE" << endl;
-    }
-    else{
+    else if (n % 5 == 0 && n % 11 != 0)
+    {
         cout << "ONE" << endl;
+    }
+    else if (n % 5 != 0 && n % 11 == 0)
+    {
+        cout << "ONE" << endl;
+    }
+    else
+    {
+        cout << "NONE" << endl;
     }
     return 0;
 }
