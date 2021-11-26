@@ -1,4 +1,4 @@
-# LeetCode Practise Problems:-
+# CodeChef Practise Problems:-
 
 [Codechef Profile ](https://www.codechef.com/users/mrpavan_gupta)| [LeetCode Profile](https://leetcode.com/mrpawan-gupta/)|
 [CodeForces Profile](https://codeforces.com/profile/Mr.pawan_gupta)|
