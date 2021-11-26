@@ -1,6 +1,7 @@
 # LeetCode Practise Problems:-
 
-[visit - profile](https://www.codechef.com/users/mrpavan_gupta)
+[Codechef Profile ](https://www.codechef.com/users/mrpavan_gupta)| [LeetCode Profile](https://leetcode.com/mrpawan-gupta/)|
+[CodeForces Profile](https://codeforces.com/profile/Mr.pawan_gupta)|
 
 ### 1. [Problems](https://www.codechef.com/problems/school/?itm_medium=navmenu&itm_campaign=problems_head) | [Solutions](https://github.com/mrpawan-gupta/Competitve-Coding/tree/main/02.%20CodeChef/1%5D.%20PRACTICE%20%26%20LEARN)
 
@@ -11,5 +12,9 @@
 - Lunch Time Challenge
 - Starter's Challenge
 - Other's
-  - Snack Down 2021
-  - ADA Challenge
+  - Snack Down 2021.
+  - ADA Challenge.
+  - Code Senso.
+  - CodeVita 2.0
+  - Code SMASH!
+  - DSA Learning Series.
