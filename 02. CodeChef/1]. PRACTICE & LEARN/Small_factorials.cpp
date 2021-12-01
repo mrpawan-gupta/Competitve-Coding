@@ -1,4 +1,6 @@
 #include <bits/stdc++.h>
+#include <boost/multiprecision/cpp_int.hpp>
+using namespace boost::multiprecision;
 using namespace std;
 using l = long;
 using ll = long long;
@@ -23,18 +25,17 @@ int main(){
 
     int t;
     cin >> t;
-
-    while(t--){
+    while (t--)
+    {
         int n;
+        cpp_int f = 1;
         cin >> n;
+        for (int i = 1; i <= n; i++)
+        {
 
-        int f = 1;
-
-        for (int i = 1; i <= n; i++){
-            f *= i;
+            f = f * i;
         }
-        cout << f << "\n";
+        cout << f << endl;
     }
-
     return 0;
 }
