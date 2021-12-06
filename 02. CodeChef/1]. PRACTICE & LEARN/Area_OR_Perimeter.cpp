@@ -23,20 +23,22 @@ int main(){
     int l, b;
     cin >> l >> b;
 
-    int a = l * b;
-    int p = 2 * (l + b);
-
-    if(a>p){
+    int area = l * b;
+    int peri = 2 * (l + b);
+    if (area > peri)
+    {
         cout << "Area" << endl;
-        cout << a << endl;
+        cout << area;
     }
-    else if(a<p){
+    else if (area < peri)
+    {
         cout << "Peri" << endl;
-        cout << p << endl;
+        cout << peri;
     }
-    else if (a==b){
+    else
+    {
         cout << "Eq" << endl;
-        cout << a << endl;
+        cout << area;
     }
 
     return 0;
