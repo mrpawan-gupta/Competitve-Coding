@@ -36,6 +36,7 @@ int main(){
     }
     else if (a==b){
         cout << "Eq" << endl;
+        cout << a << endl;
     }
 
     return 0;
