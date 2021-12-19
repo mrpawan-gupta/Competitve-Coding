@@ -23,34 +23,36 @@ const ll mod = 1e9 + 7, inf = 1e18;
 #define S second
 #define all(x) x.begin(), x.end()
 #define fast ios::sync_with_stdio(0);cin.tie(0);cout.tie(0);
-
+int pr[5 << 17];
+int Q;
+int t[5 << 17], x[5 << 17], y[5 << 17];
+int ans[5 << 17];
 int main(){
     fast;
-
-    ll t;
-    cin >> t;
-
-    vll array;
-
-    while(t--){
-        ll q, x, y;
-
-        cin >> q;
-        if(q==1){
-            cin >> x;
-            array.pb(x);
+    int len = 0;
+    for (int i = 0; i < Q; i++){
+        cin >> t[i] >> x[i];
+        if (t[i] == 2)
+            cin >> y[i];
+        else
+            len++;
+    }
+    for (int i = 1; i < 5 << 17; i++){
+        pr[i] = i;
+    }
+    int n = len;
+    for (int i = Q; i--;){
+        if (t[i] == 1){
+            len--;
+            ans[len] = pr[x[i]];
         }
         else{
-            cin >> x;
-            cin >> y;
-
-            replace(all(array), x, y);
+            pr[x[i]] = pr[y[i]];
         }
     }
-
-    for(auto j=0; j<array.size(); j++){
-        cout << array[j] << " ";
+    for (int i = 0; i < n; i++){
+        cout << ans[i] << (i + 1 == n ? "\n" : " ");
     }
-
+    
     return 0;
 }
