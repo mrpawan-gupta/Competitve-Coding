@@ -31,60 +31,33 @@ const ll mod = 1e9 + 7, inf = 1e18;
 void solveTestCases(){
     int n;
     cin >> n;
-
-    string strA, strB;
-    cin >> strA >> strB;
-    if(strA==strB){
-        cout << 0 << endl;
-        return;
-    }
-    int cntA = 0;
-    int cntB = 0;
-    bool checkA = false;
-    bool checkB = false;
-
+    string a, b;
+    cin >> a >> b;
+    int f = 0, g = 0, h = 0, z = 0;
     loop(i,0,n){
-        if(strA[i]=='1'){
-            checkA = true;
-        }
-        if(strB[i]='1'){
-            checkB = true;
-        }
-        if(strA[i]!=strB[i]){
-            cntA++;
-        }
-        else{
-            cntB++;
-        }
-
+        if (a[i] == '1' && b[i] == '0')
+            f++;
+        if (a[i] == '0' && b[i] == '1')
+            g++;
+        if (a[i] == '0' && b[i] == '0')
+            z++;
+        if (a[i] == '1' && b[i] == '1')
+            h++;
     }
-    
-    if (!cntA || !cntB) // if 1 is not present in either
-    {
-        if (strA == strB){
-            cout << "0" << endl;
-        }
-        else{
-            cout << "-1" << endl;
-        }
-        return;
+    int ans = INT_MAX;
+    if ((h + z) % 2 != 0 && h - z == 1){
+        ans = min(ans, h + z);
     }
-
-    if (n == 2)
-    {
-        if (strA == strB){
-            cout << "0" << endl;
-        }
-        else{
-            cout << "1" << endl;
-        }
-        return;
+    if ((f + g) % 2 == 0 && f == g){
+        ans = min(ans, f + g);
     }
-    if (cntB % 2)
-        cout << "-1" << endl;
+    if (ans == INT_MAX){
+        cout << -1 << endl;
+    }
     else{
-        cout << min(cntB, cntA) << "" << endl;
+        cout << ans << endl;
     }
+    return;
 }
 int main(){
     fast;
