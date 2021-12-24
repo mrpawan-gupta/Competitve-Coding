@@ -58,6 +58,7 @@ void solveTestCases(){
         }
 
     }
+    
     if (!cntA || !cntB) // if 1 is not present in either
     {
         if (strA == strB){
