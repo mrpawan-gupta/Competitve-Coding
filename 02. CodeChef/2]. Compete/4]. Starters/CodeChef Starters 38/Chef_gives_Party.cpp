@@ -1,0 +1,30 @@
+/*
+    Solution By :- Pawan Gupta [ CF - Mr.pawan_gupta, CC - guptapawan ]
+*/
+#include <bits/stdc++.h>
+using namespace std;
+
+class Solution{
+    public:
+        void solve(){
+           int n,x,k;
+           cin >> n >> x >> k;
+           cout<<(k >= x*n ?"YES":"NO") << endl;
+        }
+};
+
+int main(int argc, char const *argv[]){
+
+    ios_base::sync_with_stdio(false);
+    cin.tie(NULL);
+
+    int t = 1;
+    cin >> t;
+
+    while(t--){
+        Solution ob;
+        ob.solve();
+    }
+
+    return 0;
+}
