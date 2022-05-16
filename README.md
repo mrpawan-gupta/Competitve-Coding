@@ -4,4 +4,4 @@
 [CodeForces Profile](https://codeforces.com/profile/Mr.pawan_gupta)|
 
 The Repository Contains the Competitive Programming Questions and Contest On Different Platforms. like Codechef, CodeForces, Leetcode, etc.
-And also solutions of the contesy conducted by different platforms and companies!
+And also solutions of the contest conducted by different platforms and companies!
