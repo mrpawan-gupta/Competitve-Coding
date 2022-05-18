@@ -197,18 +197,18 @@ void solveTestCases(){
   Map[c].push(count);
   F0R(i,n+1){
     cout << ans << " ";
-    F0R(i,N){
-      int sizeM = Map[i + 'a'].size();
+    F0R(j,N){
+      int sizeM = Map[j + 'a'].size();
       if (sizeM < 2)  continue;
 
-      ll check = Map[i + 'a'].top();
-      Map[i + 'a'].pop();
+      ll check = Map[j + 'a'].top();
+      Map[j + 'a'].pop();
 
-      ll check2 = Map[i + 'a'].top();
-      Map[i + 'a'].pop();
+      ll check2 = Map[j + 'a'].top();
+      Map[j + 'a'].pop();
 
       check = check + check2;
-      Map[i + 'a'].push(check);
+      Map[j + 'a'].push(check);
 
       ans = max(ans, check);
     }
