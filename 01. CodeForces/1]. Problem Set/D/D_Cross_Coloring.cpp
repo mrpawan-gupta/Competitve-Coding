@@ -69,7 +69,7 @@ template <typename T> std::istream &operator>>(istream &in, vector<T> &v){
     for (auto &i : v)in >> i;return in;}
 
 /*--------  Pre-difined Constants-------*/
-const long long mod = 1e9 + 7, inf = 1e18;
+const long long mod = 998244353, inf = 1e18;
 const int Mod_N = 10e5 + 5; const ld Eps = 1e-9;
 #define PI 3.1415926535897932384626433832795l
 
