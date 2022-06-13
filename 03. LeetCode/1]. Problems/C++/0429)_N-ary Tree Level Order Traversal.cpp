@@ -20,9 +20,9 @@ public:
 
 class Solution{
 public:
-    vector<vector> levelOrder(Node *root){
-        vector<vector> sol;
-        vector ans;
+    vector<vector<int>> levelOrder(Node *root){
+        vector<vector<int>> sol;
+        vector<int> ans;
         if (root == NULL) return sol;
         else{
             queue<Node*> q;
