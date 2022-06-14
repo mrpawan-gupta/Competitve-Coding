@@ -19,12 +19,12 @@ The Repository contains the solution for the competitive programming questions a
 ## `Table of Contents 📋`
 | **SNo.** | **Contents** |
 | -------  | ------------ |
-| 1.       | [CodeForces]() |
-| 2.       | [CodeChef]()   |
-| 3.       | [Leetcode]()   |
-| 4.       | [Google Official]()    |
-| 5.       | [CSES Problems]()  |
+| 1.       | [CodeForces](https://github.com/mrpawan-gupta/Competitve-Coding/tree/master/01.%20CodeForces) |
+| 2.       | [CodeChef](https://github.com/mrpawan-gupta/Competitve-Coding/tree/master/02.%20CodeChef)   |
+| 3.       | [Leetcode](https://github.com/mrpawan-gupta/Competitve-Coding/tree/master/03.%20LeetCode)   |
+| 4.       | [Google Official](https://github.com/mrpawan-gupta/Competitve-Coding/tree/master/04.%20Goggle%20Official)    |
+| 5.       | [CSES Problems](https://github.com/mrpawan-gupta/Competitve-Coding/tree/master/05.%20CSES%20)  |
 | 6.       | [HackerRank]() |
 | 7.       | [HackerEarth]()    |
 | 8.       | [Geek4Geeks]() |
-| 9.       | [Hiring]() |
+| 9.       | [Hiring](https://github.com/mrpawan-gupta/Competitve-Coding/tree/master/09.%20Hiring) |
