@@ -1,4 +1,4 @@
-# `🏆 The Complete DSA Preparation 🏆`
+# `🏆 The Complete Competitive Programming  Preparation 🏆`
 
 The Repository contains the solution for the competitive programming questions and contest on various platforms. like Codechef, CodeForces, Leetcode & also solutions of the Hiring Challennges conducted by different companies like Google, Juspay, Microsoft!
 
