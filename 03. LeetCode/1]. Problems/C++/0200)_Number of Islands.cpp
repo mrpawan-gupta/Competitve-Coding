@@ -1,28 +1,34 @@
-class Solution{
+class Solution {
 public:
-    int dx[4] = {-1, 0, 1, 0};
-    int dy[4] = {0, 1, 0, -1};
-    void floodfill(vector<vector<char>> &grid, int i, int j) {
-        if (i < 0 || j < 0 || i >= grid.size() || j >= grid[0].size()) {
-            return;
-        }
-        if (grid[i][j] == '0') {
-            return;
-        }
-        grid[i][j] = '0';
-        for (int x = 0; x < 4; x++){
-            floodfill(grid, i + dx[x], j + dy[x]);
-        }
-    }
-    int numIslands(vector<vector<char>> &grid)  {
-        int count = 0;
-        for (int i = 0; i < grid.size(); ++i)  {
-            for (int j = 0; j < grid[0].size(); ++j){
-                if (grid[i][j] == '1'){
-                    count++;               
+    int numIslands(vector<vector<char>>& grid) {
+        int row = grid.size();
+        int col = grid[0].size();
+        
+        if(!row)
+            return 0;
+        
+        int island = 0;
+        for(int i = 0; i < row; i++){
+            for(int j = 0; j < col; j++){
+                if(grid[i][j] == '1'){
+                    markNearByIsland(grid, i, j, row, col);
+                    island++;
                 }
             }
         }
-        return count;
+        return island;
+    }
+    
+    
+    void markNearByIsland(vector<vector<char>>& grid, int x, int y, int row, int col) {
+        if(x < 0 || x >= row || y < 0 || y >= col || grid[x][y] != '1')
+            return;
+        
+        grid[x][y] = '0';
+        
+        markNearByIsland(grid, x-1, y, row, col);
+        markNearByIsland(grid, x+1, y, row, col);
+        markNearByIsland(grid, x, y-1, row, col);
+        markNearByIsland(grid, x, y+1, row, col);
     }
 };
