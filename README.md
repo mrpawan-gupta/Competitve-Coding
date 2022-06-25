@@ -24,7 +24,7 @@ The Repository contains the solution for the competitive programming questions a
 | 3.       | [Leetcode](https://github.com/mrpawan-gupta/Competitve-Coding/tree/master/03.%20LeetCode)      |
 | 4.       | [Google Official](https://github.com/mrpawan-gupta/Competitve-Coding/tree/master/04.%20Goggle%20Official)      |
 | 5.       | [CSES Problems](https://github.com/mrpawan-gupta/Competitve-Coding/tree/master/05.%20CSES%20)      |
-| 6.       | [HackerRank]()     |
-| 7.       | [HackerEarth]()        |
-| 8.       | [Geek4Geeks]()     |
+| 6.       | [HackerRank](https://github.com/mrpawan-gupta/Competitve-Coding/tree/master/06.%20HackerRank)     |
+| 7.       | [HackerEarth](https://github.com/mrpawan-gupta/Competitve-Coding/tree/master/07.%20HackerEarth)        |
+| 8.       | [Geek4Geeks](https://github.com/mrpawan-gupta/Competitve-Coding/tree/master/08.%20Geek4Geeks)     |
 | 9.       | [Hiring](https://github.com/mrpawan-gupta/Competitve-Coding/tree/master/09.%20Hiring)  |
