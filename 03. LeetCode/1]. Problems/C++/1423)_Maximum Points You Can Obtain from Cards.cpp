@@ -11,7 +11,7 @@ public:
             prefixsumleft.push_back(leftsum);  //
             if(leftcnt==k){
                 ans=max(ans,leftsum);
-				break;   /
+				break;   
             }
             leftcnt++;
         }
