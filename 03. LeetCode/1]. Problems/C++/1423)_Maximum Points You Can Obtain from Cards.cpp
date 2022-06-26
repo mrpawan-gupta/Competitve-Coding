@@ -8,7 +8,7 @@ public:
         int leftcnt=1;
         for(int i=0;i<cardPoints.size();i++){
             leftsum+=cardPoints[i];
-            prefixsumleft.push_back(leftsum);  //
+            prefixsumleft.push_back(leftsum); 
             if(leftcnt==k){
                 ans=max(ans,leftsum);
 				break;   
@@ -16,7 +16,7 @@ public:
             leftcnt++;
         }
 		
-        int rightcnt=k
+        int rightcnt=k;
 		int rightsum=0;
 		 
         for(int i=cardPoints.size()-1;i>=0;i--) {
